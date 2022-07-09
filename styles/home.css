@@ -4,3 +4,16 @@
   grid-template-rows: 11.4rem 1fr;
   grid-template-areas: "header header" "left right";
 }
+
+header {
+  grid-area: header;
+}
+
+#bg {
+  grid-area: left;
+  background: url("/images/avatar.svg") no-repeat top/contain;
+}
+
+main {
+  grid-area: right;
+}
