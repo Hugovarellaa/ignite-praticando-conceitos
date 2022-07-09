@@ -29,8 +29,18 @@
   
 }
 
-
 #room header .buttons .button:nth-child(2) img {
   width: 2rem;
   height: 2rem;
+}
+
+/* -------------------------------- Question-Form -------------------------------- */
+
+
+#question-form h2 {
+  color: var(--blue-dark);
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  font-weight: 700;
 }
