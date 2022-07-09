@@ -36,3 +36,8 @@ input {
   border: 2px solid var(--gray-blue);
   padding: 0 1.6rem;
 }
+
+input, button, .button {
+  width: 100%;
+  margin-bottom: 1.8rem;
+}
