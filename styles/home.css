@@ -12,16 +12,18 @@ header {
 #bg {
   grid-area: left;
   background: url("/images/home-bg-img.svg") no-repeat top/contain;
+  background-position-x: -11.5rem;
 }
 
 main {
   grid-area: right;
   display: flex;
   align-items: center;
+  margin-top: -11.2rem;
 }
 
 main .content {
-  width: min(33.3rem, 100%);
+  width: min(35rem, 100%);
 }
 
 main h2 {
@@ -37,7 +39,9 @@ input {
   padding: 0 1.6rem;
 }
 
-input, button, .button {
+input,
+button,
+.button {
   width: 100%;
   margin-bottom: 1.8rem;
 }
