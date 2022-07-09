@@ -1,5 +1,5 @@
 #room.container {
-  max-width: 85%;
+  max-width: min(112rem, 85%);
 }
 
 #room header {
@@ -11,11 +11,10 @@
 
 #room header .buttons {
   display: flex;
-
 }
 
 #room header .buttons .button:nth-child(1) {
-  margin-right: .8rem;
+  margin-right: 0.8rem;
   padding: 1.3rem 1.6rem;
 }
 #room header .buttons .button:nth-child(1) img {
@@ -26,7 +25,6 @@
 
 #room header .buttons .button:nth-child(2) {
   padding: 1.3rem 3.2rem;
-  
 }
 
 #room header .buttons .button:nth-child(2) img {
@@ -36,7 +34,6 @@
 
 /* -------------------------------- Question-Form -------------------------------- */
 
-
 #question-form h2 {
   color: var(--blue-dark);
   font-family: "Poppins", sans-serif;
@@ -44,4 +41,55 @@
   line-height: 4.2rem;
   font-weight: 700;
   margin-bottom: 2.4rem;
+}
+
+#question-form form {
+  border: 2px solid var(--gray-blue);
+  padding: 1.6rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+}
+
+#question-form form textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  resize: none;
+  outline: 0;
+}
+
+#question-form form textarea::placeholder {
+  color: var(--icon-details);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#question-form form footer > div {
+  display: flex;
+  align-items: center;
+  margin-top: 2.4rem;
+  color: var(--icon-details);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#question-form form footer > div img {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#question-form form footer > button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+  border: 0;
 }
