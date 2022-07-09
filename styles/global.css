@@ -35,8 +35,15 @@ body {
   background: var(--background);
 }
 
-body, button, input, textarea {
-  font-size: clamp(14px, 1.6rem, 2vw); /* menor tamanho 14px - padrão 16px - maior tamanho 24px */
+body,
+button,
+input,
+textarea {
+  font-size: clamp(
+    14px,
+    1.6rem,
+    2vw
+  ); /* menor tamanho 14px - padrão 16px - maior tamanho 24px */
   font-family: "Poppins", sans-serif;
 }
 
@@ -49,10 +56,17 @@ body, button, input, textarea {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
-  border-width: 0; 
+  border-width: 0;
 }
 
 .container {
   width: 100%;
   margin: 0 auto;
+}
+
+input,
+button,
+.button {
+  border-radius: 0.8rem;
+  height: 5rem;
 }

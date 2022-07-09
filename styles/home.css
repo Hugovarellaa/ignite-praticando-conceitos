@@ -16,4 +16,23 @@ header {
 
 main {
   grid-area: right;
+  display: flex;
+  align-items: center;
+}
+
+main .content {
+  width: min(33.3rem, 100%);
+}
+
+main h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(20px, 5vw, 2.8rem);
+  color: var(--blue-dark);
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+input {
+  border: 2px solid var(--gray-blue);
+  padding: 0 1.6rem;
 }
