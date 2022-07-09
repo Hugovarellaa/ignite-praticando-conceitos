@@ -11,7 +11,7 @@ header {
 
 #bg {
   grid-area: left;
-  background: url("/images/avatar.svg") no-repeat top/contain;
+  background: url("/images/home-bg-img.svg") no-repeat top/contain;
 }
 
 main {
