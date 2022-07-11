@@ -1,3 +1,8 @@
+.modal-wrapper.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 .modal-wrapper {
   position: fixed;
   top: 0;
@@ -9,6 +14,9 @@
   align-items: center;
   justify-content: center;
   background: var(--overlay);
+
+  visibility: hidden;
+  opacity: 0;
 }
 
 .modal-wrapper .modal {
@@ -48,10 +56,9 @@
   justify-content: center;
 }
 
-.modal-wrapper .modal .buttons > button{
+.modal-wrapper .modal .buttons > button {
   margin-left: 0.8rem;
 }
-
 
 .modal-wrapper .modal .buttons > button,
 .modal-wrapper .modal .buttons > .button {
