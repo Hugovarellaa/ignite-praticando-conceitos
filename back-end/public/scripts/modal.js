@@ -1,15 +1,16 @@
 export default function modal() {
+  const element = document.querySelector(".modal-wrapper");
   
   const cancelButton = document.querySelector(".button.cancel");
   cancelButton.addEventListener("click", close);
 
   function open() {
     //abri modal
-    document.querySelector(".modal-wrapper").classList.add("active");
+    element.classList.add("active");
   }
   function close() {
     //fecha modal
-    document.querySelector(".modal-wrapper").classList.remove("active");
+    element.classList.remove("active");
   }
 
   return {
