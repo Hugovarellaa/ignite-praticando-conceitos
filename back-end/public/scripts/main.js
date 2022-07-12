@@ -13,6 +13,8 @@ checkButton.forEach((button) => {
   button.addEventListener("click", () => {
     modalTitle.innerHTML = "Marca como lidar";
     modalDescription.innerHTML = "Deseja marcar como lidar com este item?";
+    modalButton.innerHTML = "Sim, Marcar como lida";
+    modalButton.classList.remove("red")
     modal.open();
   });
 });
@@ -24,7 +26,10 @@ deleteButton.forEach((button) => {
   button.addEventListener("click", () => {
     modalTitle.innerHTML = "Excluir pergunta";
     modalDescription.innerHTML =
-      "Tem certeza que você deseja excluir esta pergunta?";
+      `Tem certeza que você deseja excluir esta pergunta?`;
+    modalButton.innerHTML = "Sim, Excluir";
+    modalButton.classList.add("red")
+
     modal.open();
   });
 });
