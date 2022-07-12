@@ -4,8 +4,15 @@ const modal = Modal();
 
 const checkButton = document.querySelectorAll(".actions a.check");
 
-
 checkButton.forEach((button) => {
+  button.addEventListener("click", () => {
+    modal.open();
+  });
+});
+
+const deleteButton = document.querySelectorAll(".actions a.delete");
+
+deleteButton.forEach((button) => {
   button.addEventListener("click", () => {
     modal.open();
   });
