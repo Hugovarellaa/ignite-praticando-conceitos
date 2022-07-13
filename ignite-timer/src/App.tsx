@@ -1,5 +1,3 @@
-export function App (){
-  return (
-    <h1>Testando</h1>
-  )
+export function App() {
+  return <h1>Testando</h1>
 }
