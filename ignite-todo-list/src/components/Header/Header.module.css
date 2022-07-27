@@ -44,3 +44,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.newTaskForm button span {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--gray-100);
+  line-height: 19.6px;
+  margin-right: 0.5rem;
+}
