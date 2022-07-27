@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-
 
 :root {
   --gray-100: #f2f2f2;
@@ -23,6 +23,8 @@
 body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+  background-color: var(--gray-600);
+  color: var(--gray-100);
 }
 
 button {
