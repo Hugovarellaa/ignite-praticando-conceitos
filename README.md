@@ -39,6 +39,7 @@ Apesar de serem poucas funcionalidades, precisa relembrar conceitos como:
 - [Vitejs](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [phosphor-icons](https://phosphoricons.com/)
+- [Eslint](https://eslint.org/)
 
 ## ⚙️ Instalação
 
