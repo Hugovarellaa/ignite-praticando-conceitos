@@ -31,6 +31,7 @@ export function Header({ onAddTask }: Props) {
           onChange={onChangeTitle}
           value={taskTitle}
         />
+
         <button>
           <span>Criar</span>
           <PlusCircle size={20} />

@@ -14,7 +14,7 @@ export function Task({ task, onRemoveTask, onCheck }: Props) {
     <div className={styles.task}>
       <button className={styles.check} onClick={() => onCheck(task.id)}>
         {task.isCompleted ? (
-          <img className={styles.a} src={checkImg} alt="check" />
+          <img className={styles.completedTasks} src={checkImg} alt="check" />
         ) : (
           <Circle className={styles.imgCheck} size={24} />
         )}
